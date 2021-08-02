@@ -68,16 +68,16 @@ So it's easy to get started
 
 ## Jupyter Lab Workflow
 
-# Bonuses
-
-## New Python Project integration in Rstudio
-
-## Playing with Github Pages
-
 # Workbench example site
 
 -----------------
 
 ![](images/oab-nh.gif)
+
+# Bonuses
+
+## New Python Project integration in Rstudio
+
+## Deploying to Github Pages with `quarto-render`
 
 # Questions?
