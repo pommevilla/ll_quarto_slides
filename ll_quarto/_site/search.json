@@ -1,0 +1,32 @@
+[
+  {
+    "href": "test.html",
+    "title": "Test",
+    "section": "",
+    "text": "plot(1:10)\n\n\n\n\nHow about this?\n\n[l for l in range(10)]\n\n[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]"
+  },
+  {
+    "href": "ll_slides.html#built-on-pandoc",
+    "title": "Lunch and Learn and Quarto",
+    "section": "Built on Pandoc",
+    "text": "That’s good, right?"
+  },
+  {
+    "href": "ll_slides.html#multiple-languages",
+    "title": "Lunch and Learn and Quarto",
+    "section": "Multiple languages…",
+    "text": "Python, R, etc"
+  },
+  {
+    "href": "ll_slides.html#multiple-outputs",
+    "title": "Lunch and Learn and Quarto",
+    "section": "Multiple outputs…",
+    "text": "HTML, slides, pandoc, blah"
+  },
+  {
+    "href": "ll_slides.html#using-the-same-languages-and-syntax-you-know-about",
+    "title": "Lunch and Learn and Quarto",
+    "section": "Using the same languages and syntax you know about",
+    "text": "So it’s easy to get started"
+  }
+]

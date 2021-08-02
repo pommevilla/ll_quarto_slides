@@ -1,0 +1,41 @@
+---
+title: "First Quarto"
+author: "Paul Villanueva"
+format:
+  html
+---
+
+This is my first Quarto doc.
+
+Quarto uses Markdown, so all the Markdown you know translates here.
+
+## I can make headers
+
+We can *italicize* and **bold** text.
+
+We can link to images
+
+![Add image captions...](images/vic.jpg "...and add alt text.")
+
+And since it's based on RMarkdown, you can do all the R stuff you're used to as well.
+
+```{r}
+
+library(tidyverse)
+
+ggplot(airquality, aes(Temp, Ozone)) + 
+        geom_point() + 
+        geom_smooth(method = "loess", se = FALSE)
+```
+
+We can also throw some Python in here.
+
+```{python}
+print([x ** 2 for x in range(10)])
+```
+
+## Math stuff
+
+We can also write math stuff!
+
+> We say $f$ is continuous at $x$ if for all $\varepsilon > 0$ there exists $\delta > 0$ such that if $|x - x_0| < \delta$, then $|f(x) - f(x_0)| < \varepsilon$.

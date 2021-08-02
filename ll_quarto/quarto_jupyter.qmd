@@ -1,0 +1,46 @@
+---
+title: "Example Jupyter Notebook"
+author: Me!
+date: "7/30/2021"
+format:
+  html:
+    code-fold: true
+---
+# Example Jupyter notebook
+
+Just some example text.
+
+Here's some Python code.
+
+for x in range(10):
+    print(f'{x} squared is {x **2}.')
+
+
+Let's make a figure.
+
+
+```
+#| label: fig-polar
+#| fig.cap: A line plot on a polar axis.
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+
+ax.grid(True)
+plt.show()
+```
+
+A cool thing about Quarto is that we can cross reference figures, too. If we add the `fig.cap` option to the figure above, we can reference it later.
+
+ > See @fig-polar to see an example of a projection of a straight line into polar coordinates.
+
+
+
+
+

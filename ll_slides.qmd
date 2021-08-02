@@ -1,0 +1,83 @@
+---
+title: "Lunch and Learn and Quarto"
+date: "8/3/2021"
+author: "Paul Villanueva"
+format: revealjs
+slide-level: 2
+---
+
+# Today
+
+-   Who am I?
+-   Why is Quarto?
+-   What is Quarto?
+-   Quarto Demonstration
+-   Workbench Docs Transition
+
+# About me
+
+::: columns
+::: {.column width="50%"}
+![](images/isu-campanile.jpg)
+:::
+
+::: {.column width="50%"}
+-   BS Mathematics, Computer Science from Cal State Long Beach
+-   MS Bioinformatics from Iowa State University
+-   Currently doing PhD in Bioinformatics at Iowa State University
+:::
+:::
+
+## My R/Rmarkdown Experience
+
+I started using RMarkdown when I joined my lab at Iowa State.
+
+# Why Quarto??
+
+![](images/but-why.gif)
+
+## Lot of great technical reasons...
+
+-   Sometimes hard to know which package to use for which output format
+-   Want to expand the ecosystem/allow people from other languages to take advantage of Rmarkdown
+-   Still have to learn, but it's all encompassed within one API - all you'll need is Quarto
+
+## ...but today I'm going to show you the cool stuff
+
+-   Things you'll love: live preview, styling, rendering a project
+
+# What is Quarto?
+
+> Quarto is an open-source scientific and technical publishing system built on Pandoc. Quarto documents are authored using markdown, an easy to write plain text format.
+
+## Built on Pandoc
+
+That's good, right?
+
+## Multiple languages
+
+Currently supports Python and R, with Julia maybe coming eventually
+
+## Using the same languages and syntax you know about
+
+So it's easy to get started
+
+# Demonstrations
+
+## RMarkdown Workflow
+
+## Jupyter Lab Workflow
+
+# Bonuses
+
+## New Python Project integration in Rstudio
+
+## Playing with Github Pages
+
+# Workbench example site
+
+-----------------
+
+![](images/oab-nh.gif)
+
+# Questions?
