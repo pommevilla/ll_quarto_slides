@@ -1,5 +1,0 @@
----
-title: "ll_quarto"
----
-
-This is a Quarto document. To learn more about Quarto visit <https://quarto.org>.
